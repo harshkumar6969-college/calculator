@@ -1,0 +1,94 @@
+body {
+    font-family:  "Archivo Black", sans-serif;
+    justify-content: center;
+    align-items: center;
+    display:grid;
+    place-items: center;
+}
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "aa bb cc"
+    "dd ee ff"
+    "gg hh ii"
+    "kk ll jj ";
+    gap: 1px;
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+    width: 200px;
+}
+
+.number1 {
+    grid-area: aa;
+    font-family: "Archivo Black", sans-serif;
+}   
+.number1:active {
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(0.8,0.8)
+}
+.number2 {
+    font-family: "Archivo Black", sans-serif
+}
+.number2:active {
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(0.8,0.8) }
+.number3 {
+    font-family: "Archivo Black", sans-serif
+}
+.number3:active {
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(0.8,0.8) }
+.number4 {
+    font-family: "Archivo Black", sans-serif
+}
+.number4:active {
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(0.8,0.8) }
+.number5 {
+    font-family: "Archivo Black", sans-serif
+}
+.number5:active {
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(0.8,0.8) }
+.number6 {
+    font-family: "Archivo Black", sans-serif
+}
+.number6:active {
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(0.8,0.8) }
+.number7 {
+    font-family: "Archivo Black", sans-serif
+}
+.number7:active {
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(0.8,0.8) }
+.number9 {
+    font-family: "Archivo Black", sans-serif
+}
+.number9:active {
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(0.8,0.8) }
+.number8 {
+    font-family: "Archivo Black", sans-serif;
+}
+.number8:active {
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(0.8,0.8) }
+.number0 {
+    font-family: "Archivo Black", sans-serif;
+    grid-area: ll;
+}
+.number0:active {
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(0.8,0.8) }
