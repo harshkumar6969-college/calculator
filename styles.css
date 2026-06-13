@@ -18,10 +18,14 @@ body {
     height: 200px;
     width: 200px;
 }
+.number{
+    height: 20px;
+}
 
 .number1 {
     grid-area: aa;
     font-family: "Archivo Black", sans-serif;
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }   
 .number1:active {
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
@@ -29,49 +33,56 @@ body {
      transform: scale(0.8,0.8)
 }
 .number2 {
-    font-family: "Archivo Black", sans-serif
+    font-family: "Archivo Black", sans-serif;
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .number2:active {
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
      will-change: transform; 
      transform: scale(0.8,0.8) }
 .number3 {
-    font-family: "Archivo Black", sans-serif
+    font-family: "Archivo Black", sans-serif;
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .number3:active {
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
      will-change: transform; 
      transform: scale(0.8,0.8) }
 .number4 {
-    font-family: "Archivo Black", sans-serif
+    font-family: "Archivo Black", sans-serif;
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .number4:active {
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
      will-change: transform; 
      transform: scale(0.8,0.8) }
 .number5 {
-    font-family: "Archivo Black", sans-serif
+    font-family: "Archivo Black", sans-serif;
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .number5:active {
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
      will-change: transform; 
      transform: scale(0.8,0.8) }
 .number6 {
-    font-family: "Archivo Black", sans-serif
+    font-family: "Archivo Black", sans-serif;
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .number6:active {
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
      will-change: transform; 
      transform: scale(0.8,0.8) }
 .number7 {
-    font-family: "Archivo Black", sans-serif
+    font-family: "Archivo Black", sans-serif;
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .number7:active {
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
      will-change: transform; 
      transform: scale(0.8,0.8) }
 .number9 {
-    font-family: "Archivo Black", sans-serif
+    font-family: "Archivo Black", sans-serif;
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .number9:active {
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
@@ -79,6 +90,7 @@ body {
      transform: scale(0.8,0.8) }
 .number8 {
     font-family: "Archivo Black", sans-serif;
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .number8:active {
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
@@ -87,8 +99,77 @@ body {
 .number0 {
     font-family: "Archivo Black", sans-serif;
     grid-area: ll;
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .number0:active {
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
      will-change: transform; 
      transform: scale(0.8,0.8) }
+.delete {
+    grid-area: kk;transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.delete:active {
+     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(0.8,0.8) }
+.submit2:active{
+ transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(1.5,1.5) }
+ .submit2{
+         transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+         height: 70px
+     }
+.submit:active{
+ transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(1.5,1.5) }
+ .submit{
+         transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1)
+     }
+     .sub:active{
+ transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(1.5,1.5) }
+ .sub{
+         transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+          height: 50px;
+    width: 70px;
+     }
+
+.multiply:active{
+ transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(1.5,1.5) }
+ .multiply{
+         transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);   
+         height: 50px;
+    width: 70px;
+     }
+.divide:active{
+ transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+     will-change: transform; 
+     transform: scale(1.5,1.5) }
+ .divide{
+         transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+            height: 50px;
+    width: 70px;
+     }
+
+.new {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.submit {
+    height: 50px;
+    width: 70px;
+}
+button {
+   font-family: "Inter", sans-serif;
+   box-sizing: border-box;
+}
+@media screen and (max-width: 768px)  {
+    
+}

@@ -88,6 +88,13 @@ function submit4(){
     console.log(sum)
     number.textContent = sum
 }
+function submit5(){
+    const array1 = Number(myArray1.join(""))
+    const array2 = Number(myArray2.join(""))
+    const sum = array2 - array1;
+    console.log(sum)
+    number.textContent = sum
+}
 
 function dela(){
     myArray1.pop();
