@@ -171,5 +171,8 @@ button {
    box-sizing: border-box;
 }
 @media screen and (max-width: 768px)  {
-    
+    .new {
+        grid-template-columns: 1fr 1fr; /* Changes it to a clean 2x2 grid on phones */
+        gap: 10px;
+    }
 }
